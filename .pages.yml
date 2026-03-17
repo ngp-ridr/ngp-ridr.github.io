@@ -1,0 +1,229 @@
+# Pages CMS configuration for NGP RIDR website
+# https://pagescms.org/docs/configuration/
+
+media:
+  - name: images
+    label: Images
+    input: src/media/images
+    output: /media/images
+    extensions: [png, jpg, jpeg, webp, svg, gif]
+  - name: documents
+    label: Documents & PDFs
+    input: src/media/documents
+    output: /media/documents
+    extensions: [pdf, docx, xlsx, csv]
+
+content:
+
+  # ─── NEWS POSTS ─────────────────────────────────────────────────────────────
+  - name: news
+    label: News Posts
+    type: collection
+    path: src/content/news
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Published Date
+        type: date
+        required: true
+      - name: summary
+        label: Summary / Excerpt
+        type: text
+        description: "Short description shown in news listings (1–2 sentences)."
+      - name: image
+        label: Featured Image
+        type: image
+        options:
+          media: images
+      - name: imageAlt
+        label: Image Alt Text
+        type: string
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+        description: "Always include 'news'. Add topic tags: 'drought', 'workshop', 'stakeholder-engagement', etc."
+      - name: featured
+        label: Featured Post
+        type: boolean
+        default: false
+        description: "Featured posts appear on the homepage."
+      - name: body
+        label: Content
+        type: rich-text
+    view:
+      fields: [title, date, featured]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+
+  # ─── STATIC PAGES ───────────────────────────────────────────────────────────
+  - name: pages
+    label: Pages
+    type: collection
+    path: src/content/pages
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Page Title
+        type: string
+        required: true
+      - name: subtitle
+        label: Subtitle
+        type: string
+      - name: description
+        label: SEO Description
+        type: text
+      - name: order
+        label: Navigation Order
+        type: number
+        description: "Lower numbers appear first in navigation (1–10 range)."
+      - name: mapEnabled
+        label: Enable Interactive Map
+        type: boolean
+        default: false
+        description: "Loads Leaflet. Use the mapEmbed shortcode in content."
+      - name: chartEnabled
+        label: Enable Data Charts
+        type: boolean
+        default: false
+        description: "Loads Chart.js. Use the chartEmbed shortcode in content."
+      - name: body
+        label: Content
+        type: rich-text
+    view:
+      fields: [title, order]
+      primary: title
+      sort: [order, title]
+      default:
+        sort: order
+        order: asc
+
+  # ─── DOCUMENTS / REPORTS ────────────────────────────────────────────────────
+  - name: documents
+    label: Documents & Reports
+    type: collection
+    path: src/content/documents
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Document Title
+        type: string
+        required: true
+      - name: date
+        label: Publication Date
+        type: date
+        required: true
+      - name: authors
+        label: Authors
+        type: string
+        list: true
+      - name: docType
+        label: Document Type
+        type: select
+        options:
+          values:
+            - Technical Report
+            - Fact Sheet
+            - Data Summary
+            - Workshop Proceedings
+            - Policy Brief
+            - Other
+      - name: downloadUrl
+        label: PDF / Download File
+        type: file
+        options:
+          media: documents
+        description: "Upload a PDF or paste an external URL."
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: body
+        label: Abstract / Description
+        type: rich-text
+    view:
+      fields: [title, date, docType]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+
+  # ─── HOMEPAGE ───────────────────────────────────────────────────────────────
+  - name: homepage
+    label: Homepage
+    type: file
+    path: src/index.md
+    format: yaml-frontmatter
+    fields:
+      - name: subtitle
+        label: Hero Subtitle
+        type: text
+        description: "Tagline shown beneath the site name in the homepage hero banner."
+      - name: body
+        label: Intro Text
+        type: rich-text
+        description: "The introductory paragraph(s) shown below the hero."
+
+  # ─── SITE SETTINGS ──────────────────────────────────────────────────────────
+  - name: site-settings
+    label: Site Settings
+    type: file
+    path: src/_data/site.json
+    format: json
+    fields:
+      - name: title
+        label: Short Site Title
+        type: string
+        required: true
+      - name: fullTitle
+        label: Full Organization Name
+        type: string
+        required: true
+      - name: description
+        label: Default Site Description
+        type: text
+        required: true
+      - name: url
+        label: Site URL
+        type: string
+      - name: email
+        label: Contact Email
+        type: string
+      - name: year
+        label: Copyright Year
+        type: string
+      - name: nav
+        label: Navigation Links
+        type: object
+        list: true
+        description: "Primary navigation items shown in the header and footer. Order matters."
+        fields:
+          - name: label
+            label: Label
+            type: string
+            required: true
+          - name: url
+            label: URL
+            type: string
+            required: true
+            description: "Use a root-relative path, e.g. /about/"
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - name: attribution
+            label: Attribution Line
+            type: string
+            description: "Shown beneath the org name in the footer, e.g. funding acknowledgment."
+          - name: address
+            label: Address
+            type: text
+            description: "Mailing address shown in the footer. Use line breaks for multiple lines."

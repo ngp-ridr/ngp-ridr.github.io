@@ -1,0 +1,19 @@
+---
+layout: base.njk
+title: Documents & Reports
+permalink: /documents/index.html
+eleventyExcludeFromCollections: true
+---
+<div class="container">
+  <h1>Documents &amp; Reports</h1>
+  {% if collections.documents | length %}
+  <div class="document-list">
+    {% for doc in collections.documents %}
+    {% set doc = doc %}
+    {% include "partials/document-card.njk" %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>No documents yet.</p>
+  {% endif %}
+</div>

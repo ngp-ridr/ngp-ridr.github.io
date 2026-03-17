@@ -1,0 +1,6 @@
+{
+  "layout": "home.njk",
+  "title": "Home",
+  "permalink": "/index.html",
+  "eleventyExcludeFromCollections": true
+}

@@ -1,0 +1,19 @@
+---
+layout: base.njk
+title: News
+permalink: /news/index.html
+eleventyExcludeFromCollections: true
+---
+<div class="container">
+  <h1>News</h1>
+  {% if collections.news | length %}
+  <div class="post-grid">
+    {% for post in collections.news %}
+    {% set post = post %}
+    {% include "partials/post-card.njk" %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>No news posts yet.</p>
+  {% endif %}
+</div>

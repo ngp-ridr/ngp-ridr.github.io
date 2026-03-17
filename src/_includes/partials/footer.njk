@@ -1,0 +1,31 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="footer-logo">
+        <img src="/assets/images/ngp-ridr-logo.jpeg" alt="" class="footer-logo-img" aria-hidden="true">
+      </a>
+      <p class="footer-tagline">{{ site.fullTitle }}</p>
+      {% if site.footer.attribution %}
+      <p class="footer-tagline">{{ site.footer.attribution }}</p>
+      {% endif %}
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <ul>
+        {% for item in navigation.primary %}
+        <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="footer-contact">
+      {% if site.email %}
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      {% endif %}
+      {% if site.footer.address %}
+      <p>{{ site.footer.address | replace("\n", "<br>") | safe }}</p>
+      {% endif %}
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; {{ site.year }} {{ site.fullTitle }}. All rights reserved.</p>
+  </div>
+</footer>

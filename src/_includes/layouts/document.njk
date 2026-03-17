@@ -1,0 +1,32 @@
+---
+layout: base.njk
+---
+{% block content %}
+<article class="document-entry">
+  <header class="document-header">
+    <h1>{{ title }}</h1>
+    <dl class="document-meta">
+      {% if page.date %}
+      <dt>Published</dt>
+      <dd><time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time></dd>
+      {% endif %}
+      {% if authors %}
+      <dt>Authors</dt>
+      <dd>{{ authors | join(", ") }}</dd>
+      {% endif %}
+      {% if docType %}
+      <dt>Type</dt>
+      <dd>{{ docType }}</dd>
+      {% endif %}
+    </dl>
+    {% if downloadUrl %}
+    <a class="btn btn-download" href="{{ downloadUrl }}" download>Download PDF</a>
+    {% endif %}
+  </header>
+  {% if content %}
+  <div class="document-abstract">
+    {{ content | safe }}
+  </div>
+  {% endif %}
+</article>
+{% endblock %}

@@ -1,0 +1,17 @@
+<article class="document-card">
+  <div class="document-card-body">
+    {% if doc.data.docType %}
+    <span class="document-type">{{ doc.data.docType }}</span>
+    {% endif %}
+    <h2 class="document-card-title">
+      <a href="{{ doc.url }}">{{ doc.data.title }}</a>
+    </h2>
+    <time datetime="{{ doc.date | isoDate }}">{{ doc.date | readableDate }}</time>
+    {% if doc.data.authors %}
+    <p class="document-authors">{{ doc.data.authors | join(", ") }}</p>
+    {% endif %}
+    {% if doc.data.downloadUrl %}
+    <a class="btn btn-sm btn-download" href="{{ doc.data.downloadUrl }}" download>Download PDF</a>
+    {% endif %}
+  </div>
+</article>

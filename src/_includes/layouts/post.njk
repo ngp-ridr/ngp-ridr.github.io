@@ -1,0 +1,32 @@
+---
+layout: base.njk
+ogType: article
+---
+{% block content %}
+<article class="post">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time>
+      {% if tags %}
+      <ul class="post-tags" aria-label="Tags">
+        {% for tag in tags %}
+        {% if tag !== "news" %}
+        <li><a href="/news/tags/{{ tag | tagSlug }}/">{{ tag }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    <h1>{{ title }}</h1>
+    {% if summary %}<p class="post-summary">{{ summary }}</p>{% endif %}
+    {% if image %}
+    <figure class="post-hero">
+      <img src="{{ image }}" alt="{{ imageAlt or title }}" loading="eager">
+    </figure>
+    {% endif %}
+  </header>
+  <div class="post-body">
+    {{ content | safe }}
+  </div>
+</article>
+{% endblock %}

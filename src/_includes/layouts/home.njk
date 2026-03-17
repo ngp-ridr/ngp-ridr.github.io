@@ -1,0 +1,77 @@
+---
+layout: base.njk
+---
+{% block content %}
+<section class="hero">
+  <div class="hero-content container">
+    <h1>{{ site.fullTitle }}</h1>
+    {% if subtitle %}<p class="hero-subtitle">{{ subtitle }}</p>{% endif %}
+    <div class="hero-actions">
+      <a class="btn btn-hero" href="/about/">About NGP RIDR</a>
+      <a class="btn btn-hero btn-outline" href="/get-involved/">Get Involved</a>
+    </div>
+  </div>
+</section>
+
+<section class="home-intro">
+  <div class="container home-intro-body">
+    {{ content | safe }}
+  </div>
+</section>
+
+<section class="home-solutions">
+  <div class="container">
+    <h2>Five Integrated Solutions</h2>
+    <p class="section-lead">NGP RIDR is organized around five interconnected solutions that together modernize how drought is assessed, communicated, and acted upon across the region.</p>
+    <div class="solution-grid">
+      <div class="solution-card">
+        <div class="solution-number">1</div>
+        <h3>Regional Drought Assessment Framework</h3>
+        <p>A shared, multi-state drought assessment plan built on agreed indicators, governance structures, and inclusive stakeholder processes.</p>
+      </div>
+      <div class="solution-card">
+        <div class="solution-number">2</div>
+        <h3>Next-Generation Water Balance Monitoring</h3>
+        <p>Shifting from proxy indices to direct water-balance indicators using knowledge-guided machine learning and dense mesonet observations.</p>
+      </div>
+      <div class="solution-card">
+        <div class="solution-number">3</div>
+        <h3>Co-Produced Drought Data Services</h3>
+        <p>Open, authoritative dashboards built with the communities and agencies they serve — transparent, reproducible, and designed for multiple audiences.</p>
+      </div>
+      <div class="solution-card">
+        <div class="solution-number">4</div>
+        <h3>Risk, Adaptation, and Non-Stationarity</h3>
+        <p>Aligning drought science with insurance and USDA program frameworks to improve risk assessment and incentives for adaptation.</p>
+      </div>
+      <div class="solution-card">
+        <div class="solution-number">5</div>
+        <h3>Tribal and Rural Workforce Development</h3>
+        <p>Tribal data sovereignty, tribal-facing dashboards, and sustained workforce development pathways in drought monitoring and assessment.</p>
+      </div>
+    </div>
+    <a class="btn" href="/solutions/">Explore the Solutions</a>
+  </div>
+</section>
+
+{% if collections.featuredNews | length %}
+<section class="home-news">
+  <div class="container">
+    <h2>Latest News</h2>
+    <div class="post-grid">
+      {% for post in collections.featuredNews | limit(3) %}
+      {% set post = post %}
+      {% include "partials/post-card.njk" %}
+      {% endfor %}
+    </div>
+    <a class="btn" href="/news/">All News</a>
+  </div>
+</section>
+{% endif %}
+
+<section class="home-funding">
+  <div class="container">
+    <p class="funding-note">NGP RIDR is funded by the <strong>National Science Foundation</strong> through the Regional Resilience Innovation Incubator (R2I2) Program. Phase I: $500,000 over two years. Phase II (pending): up to $15 million over five years.</p>
+  </div>
+</section>
+{% endblock %}
