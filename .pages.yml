@@ -15,6 +15,64 @@ media:
 
 content:
 
+  # ─── HOMEPAGE ───────────────────────────────────────────────────────────────
+  - name: homepage
+    label: Homepage
+    type: file
+    path: src/index.md
+    format: yaml-frontmatter
+    fields:
+      - name: subtitle
+        label: Hero Subtitle
+        type: text
+        description: "Tagline shown beneath the site name in the homepage hero banner."
+      - name: body
+        label: Intro Text
+        type: rich-text
+        description: "The introductory paragraph(s) shown below the hero."
+
+# ─── STATIC PAGES ───────────────────────────────────────────────────────────
+  - name: pages
+    label: Pages
+    type: collection
+    path: src/content/pages
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Page Title
+        type: string
+        required: true
+      - name: subtitle
+        label: Subtitle
+        type: string
+      - name: description
+        label: SEO Description
+        type: text
+      - name: order
+        label: Navigation Order
+        type: number
+        description: "Lower numbers appear first in navigation (1–10 range)."
+      - name: mapEnabled
+        label: Enable Interactive Map
+        type: boolean
+        default: false
+        description: "Loads Leaflet. Use the mapEmbed shortcode in content."
+      - name: chartEnabled
+        label: Enable Data Charts
+        type: boolean
+        default: false
+        description: "Loads Chart.js. Use the chartEmbed shortcode in content."
+      - name: body
+        label: Content
+        type: rich-text
+    view:
+      fields: [title, order]
+      primary: title
+      sort: [order, title]
+      default:
+        sort: order
+        order: asc
+
   # ─── NEWS POSTS ─────────────────────────────────────────────────────────────
   - name: news
     label: News Posts
@@ -62,48 +120,6 @@ content:
       default:
         sort: date
         order: desc
-
-  # ─── STATIC PAGES ───────────────────────────────────────────────────────────
-  - name: pages
-    label: Pages
-    type: collection
-    path: src/content/pages
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Page Title
-        type: string
-        required: true
-      - name: subtitle
-        label: Subtitle
-        type: string
-      - name: description
-        label: SEO Description
-        type: text
-      - name: order
-        label: Navigation Order
-        type: number
-        description: "Lower numbers appear first in navigation (1–10 range)."
-      - name: mapEnabled
-        label: Enable Interactive Map
-        type: boolean
-        default: false
-        description: "Loads Leaflet. Use the mapEmbed shortcode in content."
-      - name: chartEnabled
-        label: Enable Data Charts
-        type: boolean
-        default: false
-        description: "Loads Chart.js. Use the chartEmbed shortcode in content."
-      - name: body
-        label: Content
-        type: rich-text
-    view:
-      fields: [title, order]
-      primary: title
-      sort: [order, title]
-      default:
-        sort: order
-        order: asc
 
   # ─── DOCUMENTS / REPORTS ────────────────────────────────────────────────────
   - name: documents
@@ -155,22 +171,6 @@ content:
       default:
         sort: date
         order: desc
-
-  # ─── HOMEPAGE ───────────────────────────────────────────────────────────────
-  - name: homepage
-    label: Homepage
-    type: file
-    path: src/index.md
-    format: yaml-frontmatter
-    fields:
-      - name: subtitle
-        label: Hero Subtitle
-        type: text
-        description: "Tagline shown beneath the site name in the homepage hero banner."
-      - name: body
-        label: Intro Text
-        type: rich-text
-        description: "The introductory paragraph(s) shown below the hero."
 
   # ─── SITE SETTINGS ──────────────────────────────────────────────────────────
   - name: site-settings
