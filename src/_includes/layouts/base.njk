@@ -12,7 +12,12 @@
   <meta property="og:description" content="{{ description or site.description }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="{{ ogType or 'website' }}">
-  {% if image %}<meta property="og:image" content="{{ site.url }}{{ image }}">{% endif %}
+  <meta property="og:image" content="{{ site.url }}{{ image or site.image }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if title and title != 'Home' %}{{ title }} — {% endif %}{{ site.fullTitle }}">
+  <meta name="twitter:description" content="{{ description or site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ image or site.image }}">
 
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/layout.css">
