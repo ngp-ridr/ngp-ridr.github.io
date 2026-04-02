@@ -31,7 +31,7 @@ The framework will be built with and for state agencies, Tribal nations, rural c
 
 ---
 
-## Solution 2: Next-Generation Total Water Balance Drought Monitoring
+## Solution 2: Next Generation Water Balance Monitoring
 
 **Goal:** Shift from proxy indices to direct water-balance indicators using knowledge-guided machine learning to improve estimates, correct structural model bias, enable scalable simulations, and provide true early warning.
 
@@ -49,7 +49,7 @@ The 2017 Northern Plains flash drought is a benchmark: the new system must demon
 
 ---
 
-## Solution 3: Co-Produced Regional Drought Data Services
+## Solution 3: Integrated Regional Drought Data Services
 
 **Goal:** Develop open, accessible, authoritative dashboards grounded in peer-reviewed science, supporting multiple audiences while avoiding dashboard overload and clearly distinguishing drought conditions from impacts.
 
@@ -67,7 +67,7 @@ NGP RIDR will co-produce a **regional drought data service** with the communitie
 
 ---
 
-## Solution 4: Risk, Adaptation, and Drought Non-Stationarity
+## Solution 4: Drought Risk & Adaptation
 
 **Goal:** Align drought science with insurance and risk frameworks that influence USDA payments and disaster aid, engaging public and private sector risk practitioners early to improve incentives for adaptation.
 
