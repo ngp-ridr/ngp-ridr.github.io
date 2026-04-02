@@ -1,12 +1,8 @@
 ---
 title: Get Involved
 subtitle: NGP RIDR is built on partnership. If you work with drought-affected communities, manage water or land resources, or develop tools for drought assessment — we want to hear from you.
-permalink: /get-involved/index.html
 order: 5
 description: How to engage with NGP RIDR as a stakeholder, partner organization, or researcher.
-eleventyNavigation:
-  key: Get Involved
-  order: 5
 ---
 
 ## Who We're Looking For

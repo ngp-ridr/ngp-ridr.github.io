@@ -1,12 +1,8 @@
 ---
 title: About NGP RIDR
 subtitle: Building a next-generation drought assessment system for the Northern Great Plains — and a national model for modern, equitable drought resilience.
-permalink: /about/index.html
 order: 1
 description: Learn about the Northern Great Plains Regional Incubator for Drought Resiliency — our mission, funding, and the challenges we're working to solve.
-eleventyNavigation:
-  key: About
-  order: 1
 ---
 
 ## What We Are

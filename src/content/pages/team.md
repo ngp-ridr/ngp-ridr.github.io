@@ -1,12 +1,8 @@
 ---
 title: Team
 subtitle: Researchers, practitioners, agency partners, and community leaders working together to transform drought resilience in the Northern Great Plains.
-permalink: /team/index.html
 order: 3
 description: The NGP RIDR leadership team, core team members, and partner organizations.
-eleventyNavigation:
-  key: Team
-  order: 3
 ---
 
 ## Leadership Team

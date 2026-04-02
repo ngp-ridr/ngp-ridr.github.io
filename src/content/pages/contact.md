@@ -1,11 +1,7 @@
 ---
 title: Contact
-permalink: /contact/index.html
 order: 6
 description: Contact the NGP RIDR team.
-eleventyNavigation:
-  key: Contact
-  order: 6
 ---
 
 ## Get in Touch
