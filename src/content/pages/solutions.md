@@ -1,14 +1,13 @@
 ---
 title: Solutions
-subtitle: Five integrated solutions to modernize drought assessment and build resilience across the Northern Great Plains.
-permalink: /solutions/index.html
+subtitle: Five integrated solutions to modernize drought assessment and build
+  resilience across the Northern Great Plains.
+description: The five integrated NGP RIDR solutions — from regional assessment
+  frameworks to tribal workforce development — and how they work together.
 order: 2
-description: The five integrated NGP RIDR solutions — from regional assessment frameworks to tribal workforce development — and how they work together.
-eleventyNavigation:
-  key: Solutions
-  order: 2
+mapEnabled: false
+chartEnabled: false
 ---
-
 NGP RIDR is organized around five integrated solutions. Each addresses a distinct challenge in how drought is assessed, communicated, and acted upon — and together they form a system capable of transforming drought resilience across the region.
 
 ---
@@ -26,7 +25,7 @@ NGP RIDR will develop a **regional drought assessment plan** (not a management p
 - Explicit methods for assessing drought vulnerability and impacts
 - A shared governance structure for assessment, conflict resolution, and future updates
 
-The framework will be built with and for state agencies, Tribal nations, rural communities, and federal partners — not handed down to them.
+The framework will be built with and for state agencies, Tribal nations, rural communities, and federal partners.
 
 **Lead:** Britt Parker (NIDIS) | **Co-leads:** Michael Downey (MT DNRC), Jason Gerlich (NIDIS)
 
