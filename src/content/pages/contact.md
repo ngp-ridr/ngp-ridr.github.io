@@ -1,9 +1,10 @@
 ---
 title: Contact
-order: 6
 description: Contact the NGP RIDR team.
+order: 6
+mapEnabled: false
+chartEnabled: false
 ---
-
 ## Get in Touch
 
 For general inquiries about NGP RIDR, partnership opportunities, or upcoming events, contact us at [{{ site.email }}](mailto:{{ site.email }}).
@@ -12,7 +13,8 @@ For general inquiries about NGP RIDR, partnership opportunities, or upcoming eve
 
 **Kelsey Jencso**, Director
 W.A. Franke College of Forestry & Conservation
-University of Montana
+University of Montana  
+32 Campus Drive  
 Missoula, MT 59812
 
 ## Media and Communications
@@ -21,6 +23,7 @@ For press inquiries or requests for presentations and interviews, please email [
 
 ## Mailing Address
 
-Montana Climate Office
-University of Montana
+Montana Climate Office  
+32 Campus Drive  
+University of Montana  
 Missoula, MT 59812
