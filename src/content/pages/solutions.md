@@ -8,7 +8,7 @@ order: 2
 mapEnabled: false
 chartEnabled: false
 ---
-NGP RIDR is organized around five integrated solutions. Each addresses a distinct challenge in how drought is assessed, communicated, and acted upon — and together they form a system capable of transforming drought resilience across the region.
+NGP RIDR is organized around five integrated solutions. Each addresses a distinct challenge in how drought is assessed, communicated, and acted upon. 
 
 ---
 
