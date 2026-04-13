@@ -3,25 +3,40 @@
   "fullTitle": "Northern Great Plains Regional Incubator for Drought Resiliency",
   "description": "Co-designing next-generation drought resilience solutions for the Northern Great Plains through community-engaged science, modern monitoring, and equitable partnerships.",
   "url": "https://ngp-ridr.org",
-  "author": "NGP RIDR Team",
   "email": "info@ngp-ridr.org",
   "year": "2026",
   "nav": [
-    { "label": "About",        "url": "/about/" },
-    { "label": "Solutions",    "url": "/solutions/" },
-    { "label": "Team",         "url": "/team/" },
-    { "label": "News",         "url": "/news/" },
-    { "label": "Documents",    "url": "/documents/" },
-    { "label": "Get Involved", "url": "/get-involved/" },
-    { "label": "Contact",      "url": "/contact/" }
+    {
+      "label": "About",
+      "url": "/about/"
+    },
+    {
+      "label": "Solutions",
+      "url": "/solutions/"
+    },
+    {
+      "label": "Team",
+      "url": "/team/"
+    },
+    {
+      "label": "News",
+      "url": "/news/"
+    },
+    {
+      "label": "Documents",
+      "url": "/documents/"
+    },
+    {
+      "label": "Get Involved",
+      "url": "/get-involved/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
   ],
   "footer": {
     "attribution": "Funded by the National Science Foundation R2I2 Program",
-    "address": "Montana Climate Office\nUniversity of Montana\nMissoula, MT 59812"
-  },
-  "image": "/assets/images/ngp-ridr-logo.jpeg",
-  "social": {
-    "twitter": "",
-    "github": ""
+    "address": "Montana Climate Office\n32 Campus Drive\nUniversity of Montana\nMissoula, MT 59812"
   }
 }
