@@ -1,10 +1,12 @@
 ---
 title: Team
-subtitle: Researchers, practitioners, agency partners, and community leaders working together to transform drought resilience in the Northern Great Plains.
-order: 3
+subtitle: Researchers, practitioners, agency partners, and community leaders
+  working together to transform drought resilience in the Northern Great Plains.
 description: The NGP RIDR leadership team, core team members, and partner organizations.
+order: 3
+mapEnabled: false
+chartEnabled: false
 ---
-
 ## Leadership Team
 
 **Kelsey Jencso** — Director, NGP RIDR; Professor, W.A. Franke College of Forestry & Conservation, University of Montana
@@ -17,7 +19,7 @@ description: The NGP RIDR leadership team, core team members, and partner organi
 
 **Britt Parker** — National Integrated Drought Information System (NIDIS), NOAA
 
-**Scott Whittenberg** — Vice President for Research, University of Montana
+**Scott Whittenburg** — Vice President for Research, University of Montana
 
 ---
 
