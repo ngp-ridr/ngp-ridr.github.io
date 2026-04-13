@@ -61,7 +61,7 @@ FALCON Network (American Indian Higher Education Consortium) · Great Plains Tri
 **Universities**
 University of Montana · South Dakota State University · University of Nebraska-Lincoln · University of Wyoming · North Dakota State University
 
-**Mesonet Networks**
+**Observation Networks**  
 South Dakota Mesonet · CoCoRaHS · National Coordinated Soil Moisture Monitoring Network (NCSMN) · SCAN
 
 **Private Sector**
