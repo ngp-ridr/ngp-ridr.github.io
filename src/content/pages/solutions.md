@@ -18,7 +18,7 @@ NGP RIDR is organized around five integrated solutions. Each addresses a distinc
 
 The Northern Great Plains has no unified drought assessment system. Different states use different indicators, different historical baselines, and different processes — and those inconsistencies have real consequences when federal programs, insurance triggers, and emergency declarations depend on drought classifications.
 
-NGP RIDR will develop a **regional drought assessment plan** (not a management plan) that aligns states on:
+NGP RIDR will develop a **regional drought assessment framework** (not a management plan) that aligns states on:
 
 - Indicators and datasets grounded in water-balance science
 - Reference periods that account for non-stationarity in climate
@@ -62,6 +62,7 @@ NGP RIDR will co-produce a **regional drought data service** with the communitie
 - Allow **tailoring by geography and sector** (e.g., weighting soil moisture for rangelands vs. streamflow for irrigation)
 - Clearly distinguish **drought conditions** (water balance) from **drought impacts** (agricultural, economic, ecological, cultural)
 - Be designed for **adoption by other regions** — making the NGP RIDR system a national incubator, not just a regional one
+- Can be customizable for subregions (states) in their specific needs. 
 
 **Lead:** Kelsey Jencso (UM) | **Co-leads:** Julian Scott (BLM), Kyle Bocinsky (UM), Laura Edwards (SD SCO), Michael Downey (MT DNRC)
 
