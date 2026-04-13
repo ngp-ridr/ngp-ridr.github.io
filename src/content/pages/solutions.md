@@ -18,7 +18,7 @@ NGP RIDR is organized around five integrated solutions. Each addresses a distinc
 
 The Northern Great Plains has no unified drought assessment system. Different states use different indicators, different historical baselines, and different processes — and those inconsistencies have real consequences when federal programs, insurance triggers, and emergency declarations depend on drought classifications.
 
-NGP RIDR will develop a **regional drought assessment framework** (not a management plan) that aligns states on:
+NGP RIDR will develop a regional drought assessment framework (not a management plan) that aligns states on:
 
 - Indicators and datasets grounded in water-balance science
 - Reference periods that account for non-stationarity in climate
@@ -35,7 +35,7 @@ The framework will be built with and for state agencies, Tribal nations, rural c
 
 **Goal:** Shift from proxy indices to direct water-balance indicators using knowledge-guided machine learning to improve estimates, correct structural model bias, enable scalable simulations, and provide true early warning.
 
-Current drought monitoring relies heavily on proxy indices derived from precipitation and temperature — metrics that can miss flash droughts, mischaracterize soil moisture conditions, and lose accuracy as climate patterns shift. The solution is not a better index: it's a shift to **directly estimating the water balance**.
+Current drought monitoring relies heavily on proxy indices derived from precipitation and temperature — metrics that can miss flash droughts, mischaracterize soil moisture conditions, and lose accuracy as climate patterns shift. The solution is not a better index: it's a shift to directly estimating the water balance.
 
 NGP RIDR will leverage:
 
@@ -55,14 +55,14 @@ The 2017 Northern Plains flash drought is a benchmark: the new system must demon
 
 The region already has too many drought dashboards — each built for a specific audience, using different data and methods, with inconsistent outputs. The result is confusion, not clarity.
 
-NGP RIDR will co-produce a **regional drought data service** with the communities and agencies it's meant to serve. Dashboards will:
+NGP RIDR will co-produce a regional drought data service with the communities and agencies it's meant to serve. Dashboards will:
 
 - Be **objective, transparent, and reproducible** — with documented data sources, methods, and reference periods
 - Support **multiple audiences**: state agencies, Tribal nations, agricultural producers, utilities, emergency managers
 - Allow **tailoring by geography and sector** (e.g., weighting soil moisture for rangelands vs. streamflow for irrigation)
 - Clearly distinguish **drought conditions** (water balance) from **drought impacts** (agricultural, economic, ecological, cultural)
 - Be designed for **adoption by other regions** — making the NGP RIDR system a national incubator, not just a regional one
-- Can be customizable for subregions (states) in their specific needs. 
+- Can be customizable for subregions (states) in their specific needs.
 
 **Lead:** Kelsey Jencso (UM) | **Co-leads:** Julian Scott (BLM), Kyle Bocinsky (UM), Laura Edwards (SD SCO), Michael Downey (MT DNRC)
 
@@ -78,7 +78,7 @@ NGP RIDR will:
 
 - Learn from insurance and risk practitioners — not attempt to reinvent their frameworks
 - Identify where improved drought science can reduce mismatches between actual conditions and program triggers
-- Develop a **pilot for agricultural risk alignment** that demonstrates how nonstationary, water-balance-based assessment improves incentives for adaptation
+- Develop a pilot for agricultural risk alignment that demonstrates how nonstationary, water-balance-based assessment improves incentives for adaptation
 - Engage USDA (FSA, RMA), private insurers, ag lenders, and risk modelers as early co-producers
 
 This solution treats the insurance and disaster-aid ecosystem as a partner, not an audience.
@@ -95,9 +95,9 @@ Many of the mesonet stations that anchor the new water-balance monitoring system
 
 NGP RIDR will work with Tribal colleges (TCUs), the FALCON network, the Great Plains Tribal Water Alliance, and individual tribal nations to:
 
-- Develop **tribal-specific or tribal-facing drought dashboards** that reflect tribal priorities, data, and decision contexts
-- Create **workforce development pathways** — certificates, internships, network maintenance roles — that build lasting drought monitoring capacity in tribal communities
-- Establish **official, defined input pipelines** that give Tribal nations a direct voice in regional drought designation processes
-- Build **sustained, funded engagement** — not the unfunded expectations that have characterized so many past collaborations
+- Develop tribal-specific or tribal-facing drought dashboards that reflect tribal priorities, data, and decision contexts
+- Create workforce development pathways — certificates, internships, network maintenance roles — that build lasting drought monitoring capacity in tribal communities
+- Establish official, defined input pipelines that give Tribal nations a direct voice in regional drought designation processes
+- Build sustained, funded engagement — not the unfunded expectations that have characterized so many past collaborations
 
 **Lead:** Kyle Bocinsky (UM) | **Co-leads:** Nathan Edwards (SD Mesonet), Laura Edwards (SD SCO), Carrie Schumacher (AIHEC/FALCON)
