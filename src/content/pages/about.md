@@ -1,15 +1,19 @@
 ---
 title: About NGP RIDR
-subtitle: Building a next-generation drought assessment system for the Northern Great Plains — and a national model for modern, equitable drought resilience.
+subtitle: Building a next-generation drought assessment system for the Northern
+  Great Plains — and a national model for modern, equitable drought resilience.
+description: Learn about the Northern Great Plains Regional Incubator for
+  Drought Resiliency — our mission, funding, and the challenges we're working to
+  solve.
 order: 1
-description: Learn about the Northern Great Plains Regional Incubator for Drought Resiliency — our mission, funding, and the challenges we're working to solve.
+mapEnabled: false
+chartEnabled: false
 ---
-
 ## What We Are
 
-The Northern Great Plains Regional Incubator for Drought Resiliency (NGP RIDR) is funded through the **National Science Foundation Regional Resilience Innovation Incubator (R2I2) Program** — a program focused on community-engaged, use-inspired solution development and the translation of Earth System Science to real-world deployment.
+The Northern Great Plains Regional Incubator for Drought Resiliency (NGP RIDR) is funded through the National Science Foundation Regional Resilience Innovation Incubator (R2I2) Program — a program focused on community-engaged, use-inspired solution development and the translation of Earth System Science to real-world deployment.
 
-Phase I of NGP RIDR is a two-year, $500,000 award focused on concept development, ideation, and the alignment of people, data, methods, and decision contexts. A successful Phase I will result in a full proposal for a Phase II implementation award of **up to $15 million over five years** to deploy the system at scale across the five states of the Northern Great Plains.
+Phase I of NGP RIDR is a two-year, $500,000 award focused on concept development, ideation, and the alignment of people, data, methods, and decision contexts. A successful Phase I will result in a full proposal for a Phase II implementation award of up to $15 million over five years to deploy the system at scale across the five states of the Northern Great Plains.
 
 ## Our Goal
 
@@ -17,10 +21,10 @@ To co-design a series of drought resilience solutions with users that modernize 
 
 ## Our Vision
 
-- Build a **next-generation regional drought assessment and early warning framework** for the Northern Great Plains.
-- Serve as a **regional pilot for a national, modern, climate-aware drought assessment approach** that can scale to other regions.
-- Shift drought assessment from outdated, stationary methods toward **nonstationary, water-balance-based approaches**.
-- Improve **equity, transparency, and trust** in how drought information informs decisions, funding, and policy.
+- Build a next-generation regional drought assessment and early warning framework for the Northern Great Plains.
+- Serve as a regional pilot for a national, modern, climate-aware drought assessment approach that can scale to other regions.
+- Shift drought assessment from outdated, stationary methods toward nonstationary, water-balance-based approaches.
+- Improve equity, transparency, and trust in how drought information informs decisions, funding, and policy.
 
 ## Why Now?
 
