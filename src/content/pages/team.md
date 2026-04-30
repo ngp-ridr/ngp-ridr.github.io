@@ -25,9 +25,9 @@ chartEnabled: false
 
 ## Core Team
 
-**Laura Edwards** — South Dakota State Climatologist; Director, South Dakota Mesonet
+**Laura Edwards** — South Dakota State Climatologist
 
-**Nathan Edwards** — South Dakota Mesonet
+**Nathan Edwards** — Director, South Dakota Mesonet
 
 **Jason Gerlich** — National Integrated Drought Information System (NIDIS), NOAA
 
