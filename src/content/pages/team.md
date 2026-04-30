@@ -9,17 +9,17 @@ chartEnabled: false
 ---
 ## Leadership Team
 
-**Kelsey Jencso** — Director, NGP RIDR; Professor, W.A. Franke College of Forestry & Conservation, University of Montana
+**Kelsey Jencso** — Director, NGP RIDR; State Climatologist and Director of the Montana Mesonet, Montana Climate Office
 
-**Kyle Bocinsky** — Co-Investigator; Director of Climate Science Applications, Montana Climate Office, University of Montana
+**Kyle Bocinsky** — Co-Investigator; Director of Climate Extension, Montana Climate Office
 
-**Zach Hoylman** — Co-Investigator; Research Assistant Professor, W.A. Franke College of Forestry & Conservation, University of Montana
+**Zach Hoylman** — Co-Investigator; Asst. State Climatologist, Montana Climate Office
 
-**Annie McVay** — Montana Climate Office (MCO), University of Montana
+**Scott Whittenburg** — Co-Investigator; Vice President for Research and Creative Scholarship, University of Montana
 
-**Britt Parker** — National Integrated Drought Information System (NIDIS), NOAA
+**Britt Parker** — Co-Investigator; National Integrated Drought Information System (NIDIS), NOAA
 
-**Scott Whittenburg** — Vice President for Research, University of Montana
+**Annie McVay** — Fiscal and Program Coordinator, Montana Climate Office
 
 ---
 
