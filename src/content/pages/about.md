@@ -1,7 +1,7 @@
 ---
 title: About NGP RIDR
 subtitle: Building a next-generation drought assessment system for the Northern
-  Great Plains — and a national model for modern, equitable drought resilience.
+  Great Plains — and a national model for contemporary drought resilience.
 description: Learn about the Northern Great Plains Regional Incubator for
   Drought Resiliency — our mission, funding, and the challenges we're working to
   solve.
@@ -17,14 +17,14 @@ Phase I of NGP RIDR is a two-year, $500,000 award focused on concept development
 
 ## Our Goal
 
-To co-design a series of drought resilience solutions with users that modernize drought assessment using machine learning and mesonet observations within a nonstationary framework — explicitly addressing equity and capacity gaps in rural communities and Tribal Nations to enable long-term economic and institutional sustainability.
+To co-design a series of drought resilience solutions with users that modernize drought assessment using machine learning and mesonet observations within a nonstationary framework — explicitly addressing capacity gaps in rural communities and Tribal Nations to enable long-term economic and institutional sustainability.
 
 ## Our Vision
 
 - Build a next-generation regional drought assessment and early warning framework for the Northern Great Plains.
 - Serve as a regional pilot for a national, modern, climate-aware drought assessment approach that can scale to other regions.
 - Shift drought assessment from outdated, stationary methods toward nonstationary, water-balance-based approaches.
-- Improve equity, transparency, and trust in how drought information informs decisions, funding, and policy.
+- Improve transparency, and trust in how drought information informs decisions, funding, and policy.
 
 ## Why Now?
 
@@ -36,10 +36,10 @@ A rare convergence of factors makes this moment uniquely actionable:
 
 **Advances in science and technology.** Machine learning, data fusion, and knowledge-guided modeling now make it possible to estimate total water balance components — soil moisture, groundwater, streamflow, evapotranspiration — at the resolution and speed operational decisions demand.
 
-**Persistent failures in coordination.** Post-drought reviews (including the landmark 2017 Northern Plains drought) have documented consistent problems: inconsistent indicator selection, mismatched reference periods, fragmented communication, and decisions that locked in economic inequities. Errors in drought classification have real consequences — they determine eligibility for USDA programs, insurance payouts, and emergency declarations affecting billions of dollars.
+**Persistent coordination issues.** Post-drought reviews (including the landmark 2017 Northern Plains drought) have documented consistent problems: inconsistent indicator selection, mismatched reference periods, fragmented communication, and decisions that locked in economic disparities. Errors in drought classification have real consequences — they determine eligibility for USDA programs, insurance payouts, and emergency declarations affecting billions of dollars.
 
 ## Program Context
 
 NGP RIDR is part of NSF's R2I2 program, which is explicitly **not** a traditional research program. It funds the work of building systems: aligning stakeholders, developing governance, co-producing knowledge with users, and creating pathways from science to sustained operational practice.
 
-Phase 1 is about getting it right before scaling — establishing the shared understanding, partnerships, and methodological foundations so that future drought assessment in the Northern Great Plains is more accurate, equitable, trusted, and actionable.
+Phase 1 is about getting it right before scaling — establishing the shared understanding, partnerships, and methodological foundations so that future drought assessment in the Northern Great Plains is more accurate, trusted, and actionable.
