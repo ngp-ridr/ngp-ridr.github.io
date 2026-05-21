@@ -39,6 +39,8 @@ The framework will be built with and for state agencies, Tribal nations, rural c
 
 Current drought monitoring relies heavily on proxy indices derived from precipitation and temperature — metrics that can miss flash droughts, mischaracterize soil moisture conditions, and lose accuracy as climate patterns shift. The solution is not a better index: it's a shift to directly estimating the water balance.
 
+![](/media/images/SOL2.png)
+
 NGP RIDR will leverage:
 
 - **Dense mesonet networks** already deployed across the region — particularly soil moisture sensors — as direct observational anchors
