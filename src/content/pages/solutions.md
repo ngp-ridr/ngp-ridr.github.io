@@ -59,6 +59,8 @@ The 2017 Northern Plains flash drought is a benchmark: the new system must demon
 
 The region already has too many drought dashboards — each built for a specific audience, using different data and methods, with inconsistent outputs. The result is confusion, not clarity.
 
+![](/media/images/SOL3.png)
+
 NGP RIDR will co-produce a regional drought data service with the communities and agencies it's meant to serve. Dashboards will:
 
 - Be **objective, transparent, and reproducible** — with documented data sources, methods, and reference periods
