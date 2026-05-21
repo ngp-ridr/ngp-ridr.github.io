@@ -16,6 +16,8 @@ NGP RIDR is organized around five integrated solutions. Each addresses a distinc
 
 **Goal:** Establish buy-in across all five Northern Great Plains states for a shared regional drought assessment framework, including vulnerability assessment, indicator selection, defined reference periods, expanded impact assessment, and a shared governance structure.
 
+![](/media/images/SOL1.png)
+
 The Northern Great Plains has no unified drought assessment system. Different states use different indicators, different historical baselines, and different processes — and those inconsistencies have real consequences when federal programs, insurance triggers, and emergency declarations depend on drought classifications.
 
 NGP RIDR will develop a regional drought assessment framework (not a management plan) that aligns states on:
