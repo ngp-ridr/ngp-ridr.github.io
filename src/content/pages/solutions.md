@@ -80,6 +80,8 @@ NGP RIDR will co-produce a regional drought data service with the communities an
 
 Drought classification directly affects billions of dollars in USDA program payments — Livestock Forage Program (LFP), Livestock Indemnity Program (LIP), Emergency Loan programs — and private crop and livestock insurance. Yet the drought science used to trigger these programs often relies on outdated baselines that don't reflect a changing climate.
 
+![](/media/images/SOL4.png)
+
 NGP RIDR will:
 
 - Learn from insurance and risk practitioners — not attempt to reinvent their frameworks
