@@ -55,8 +55,8 @@ Montana Climate Office · South Dakota State Climate Office · Nebraska State Cl
 **Federal Agencies**
 NOAA National Integrated Drought Information System (NIDIS) · NOAA National Centers for Environmental Information (NCEI) · USDA Agricultural Research Service · USDA Farm Service Agency (FSA) · USDA Risk Management Agency (RMA) · USDA Natural Resources Conservation Service (NRCS) · Bureau of Land Management (BLM) · U.S. Army Corps of Engineers · USGS
 
-**Tribal Partners**
-FALCON Network (American Indian Higher Education Consortium) · Great Plains Tribal Water Alliance · Institute for Tribal Environmental Professionals (ITEP) · National Tribal and Indigenous Climate Conference (NTICC) · Intertribal Agriculture Council
+**Tribal Partners**  
+FALCON Network (American Indian Higher Education Consortium) · Great Plains Tribal Water Alliance
 
 **Universities**
 University of Montana · South Dakota State University · University of Nebraska-Lincoln · University of Wyoming · North Dakota State University
